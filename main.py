@@ -6,20 +6,20 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 file_path = "data/trainingdata.csv"
-df = pd.read_csv(file_path)
+dataFrame = pd.read_csv(file_path)
 
 # Display basic info
-print(df.head())
-print(df.info())
+print(dataFrame.head())
+print(dataFrame.info())
 
-df = df.dropna()
+dataFrame = dataFrame.dropna()
 
 # Selecting features (latitude, longitude) and target (UHI Index)
 features = ["Latitude", "Longitude"] 
 target = "UHI Index"
 
-X = df[features]
-y = df[target]
+X = dataFrame[features]
+y = dataFrame[target]
 
 # Splitting dataset
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
