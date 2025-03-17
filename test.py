@@ -512,11 +512,6 @@ predictions_df = pd.DataFrame({
 })
 predictions_df.to_csv("uhi_predictions.csv", index=False)
 
-# If using Jupyter Notebook, make sure plots appear inline
-try:
-    get_ipython().run_line_magic('matplotlib', 'inline')
-except:
-    pass
 
 print("\nAnalysis complete. Results and visualizations have been saved.")
 print("\nKey Findings:")
