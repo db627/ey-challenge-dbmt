@@ -3,3 +3,5 @@ uhi_predictions.csv
 data/nyc_satellite.tif
 data/Building_Footpring.kml
 data/Building_Footprint.kml
+/legacy
+/data
