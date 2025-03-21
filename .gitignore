@@ -5,3 +5,7 @@ data/Building_Footpring.kml
 data/Building_Footprint.kml
 /legacy
 /data
+Sentinel2_GeoTIFF.ipynb
+/fig
+/venv
+/__pycache__
