@@ -10,6 +10,7 @@ Throughout this project, I teamed up with @Max Tsvayner where our task was to pr
 
 1. **Clone the Repository**  
    ```bash
+   git clone https://github.com/db627/ey-challenge-dbmt.git
 2. **Install the Dependencies**
     ```bash
     pip install -r requirements.txt
